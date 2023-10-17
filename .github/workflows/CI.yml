@@ -7,7 +7,6 @@ jobs:
   build_and_push:
     runs-on: ubuntu-latest
     env:
-      USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
       AMD_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/amd64-tiny-rust
       ARM_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/arm64-tiny-rust
       MANIFEST_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/tiny-rust
