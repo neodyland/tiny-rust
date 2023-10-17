@@ -1,7 +1,9 @@
 name: Build and Publish Docker
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 jobs:
   build_and_push:
