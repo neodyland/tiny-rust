@@ -1,0 +1,10 @@
+[package]
+name = "test-bin"
+version = "0.1.0"
+edition = "2021"
+[[bin]]
+name = "test"
+path = "src/main.rs"
+[dependencies]
+reqwest = "0.11.22"
+tokio = { version = "1.33.0", features = ["macros", "rt", "rt-multi-thread"] }
