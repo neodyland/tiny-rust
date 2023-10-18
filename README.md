@@ -1,7 +1,7 @@
 # Tiny Rust
 The smallest docker image with `openssl-sys` `native-tls` support.  
 Works on `linux/amd64` `linux/arm64`.  
-Smaller then `ghr.io/distroless/base`!!
+Smaller than `ghr.io/distroless/base`!!
 # How to use
 ```dockerfile
 FROM rust:latest AS builder
